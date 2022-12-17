@@ -1,0 +1,158 @@
+/* General Style */
+
+body {
+    background-color: black;
+}
+
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    font-size: 4vw;
+    padding-top: 10vw;
+    padding-bottom: 5vw;
+    padding-left: 20vw;
+    padding-right: 20vw;
+    text-align: center;
+    font-family: 'Quicksand';
+}
+
+@font-face {
+    font-family:'Quicksand';
+    src: url('Fonts/Quicksand/Quicksand-VariableFont_wght.ttf') ;
+}
+
+/* nav */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding-bottom: 0.2%;
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+  }
+  
+li {
+    float: left;
+  }
+  
+li a {
+    display: block;
+    font-size: 1.6vw;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family:monospace;
+  }
+
+li a :hover {
+    opacity: 50%;
+}
+
+@media (max-width: 600px) {
+    nav, article {
+      width: 100%;
+      height: auto;
+      }
+}
+
+#intro+survey {
+    background-color: white;
+}
+
+/* Intro */
+
+#intro {
+    background-color: white;
+    text-align: center;
+    border: none;
+    border-color: white;
+}
+
+#introTxt {
+    font-size: 1.3vw;
+    margin-left: 14vw;
+    margin-right: 14vw;
+    padding-bottom: 10vw;
+    border: none;
+    border-color: white;
+}
+
+/* General Perspectives */
+
+#survey {
+    background-color: white;
+    border: none;
+    border-color: white;
+}
+
+#FBar {
+    float: left;
+    margin-left: 1vw;
+    margin-bottom: 1vw;
+}
+
+#MBar {
+    float: right;
+    margin-right: 1vw;
+    margin-bottom: 1vw;
+}
+
+#Bartxt {
+    text-align: center;
+    font-size: 1.3vw;
+    margin-top: 1vw;
+    padding-bottom: 10vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+/* Talking To Experts */
+
+#interview1 {
+    background-color: black;
+    color: white;
+}
+
+#interview2 {
+    background-color: black;
+    color: white;
+}
+
+#interviewTxt1 {
+    width: 40%;
+    background-color: black;
+    float: left;
+    font-size: 1.3vw;
+    padding-left: 3vw;
+    padding-top: 3vw;
+    margin-bottom: 5vw;
+}
+
+#interviewVid1 {
+    background-color: black;
+    margin-right: 4vw;
+    width: 40%;
+    float: right;
+}
+
+#interviewTxt2 {
+    width: 40%;
+    background-color: black;
+    float: left;
+    font-size: 1.3vw;
+    padding-left: 26vw;
+    margin-right: 4vw;
+    padding-top: 5vw;
+    padding-bottom: 2vw;
+    text-align: center;
+}
+
+#interviewVid2 {
+    margin-left: 26vw;
+    margin-right: 4vw;
+    width: 45vw;
+    height: 40vw;
+}
