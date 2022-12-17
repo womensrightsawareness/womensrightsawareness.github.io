@@ -20,7 +20,7 @@ h1 {
 
 @font-face {
     font-family:'Quicksand';
-    src: url('Fonts/Quicksand/Quicksand-VariableFont_wght.ttf') ;
+    src: url('/Quicksand-VariableFont_wght.ttf') ;
 }
 
 /* nav */
