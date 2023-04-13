@@ -1,0 +1,220 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #002020;
+    color:azure;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: 'Quicksand', sans-serif;
+    letter-spacing: 4px;
+    padding: 100px;
+    text-align: center;
+}
+
+p {
+    font-size: 16px;
+    font-family: sans-serif
+}
+
+/* nav */
+
+li, a {
+    font-family: monospace, sans-serif;
+    font-size: 2.5vh;
+    color: #ECECEF;
+    text-decoration: none;
+
+}
+
+header {
+    display:flex;
+    align-items:center;
+    justify-content:left;
+    padding: 30px 10%;
+}
+
+.navlinks {
+    list-style: none;
+}
+
+.navlinks li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.navlinks li a {
+    transition: all 0.3s ease 0s;
+}
+
+.navlinks li a:hover {
+    color: #cfcfe8;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 700,
+  'GRAD' 200,
+  'opsz' 48
+}
+
+/* Intro */
+
+.introTxt {
+    font-size: 2vh;
+    font-family: 'Raleway', sans-serif;
+    line-height: 140%;
+    text-align: center;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    padding: 40px;
+    border: none;
+}
+
+#introQuote {
+    font-size: 3vh;
+    word-spacing: 2px;
+    letter-spacing: 1.2px;
+    font-family: 'Caveat', cursive;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Responsive */
+@media only screen and (max-width:600px) {
+
+    header {
+        padding: 30px 5%;
+    }
+
+    .navlinks li {
+        padding: 0px 12px;
+    }
+
+    .navlinks li a {
+        font-size: 18px;
+    }
+
+    .introTxt {
+        margin-left: 7vw;
+        margin-right: 7vw;
+    }
+
+}
+
+@media only screen and (max-width:1200px) {
+
+    #Charts {
+        flex-direction: column;
+    }
+
+}
+
+#Charts {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 60px;
+}
+
+@media only screen and (max-width:1000px) {
+
+    #Charts img {
+        height: auto;
+        width: 70%;
+        height: 70%
+    }
+
+}
+
+@media only screen and (max-width:700px) {
+
+    #Charts img {
+        width: 50%;
+        height: 50%;
+    }
+}
+
+#Charts img {
+    padding: 0 20px;
+    width: 90vh;
+}
+
+/* Survey */
+
+
+
+
+
+/**
+
+#survey {
+    border: none;
+}
+
+#FBar {
+    float: left;
+    margin-left: 1vw;
+    margin-bottom: 1vw;
+}
+
+#MBar {
+    float: right;
+    margin-right: 1vw;
+    margin-bottom: 1vw;
+}
+
+#Bartxt {
+    text-align: center;
+    font-size: 1.3vw;
+    margin-top: 1vw;
+    padding-bottom: 10vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+/* Talking To Experts
+
+#interview1 {
+    color: white;
+}
+
+#interview2 {
+    color: white;
+}
+
+#interviewTxt1 {
+    width: 40%;
+    float: left;
+    font-size: 1.3vw;
+    padding-left: 3vw;
+    padding-top: 3vw;
+    margin-bottom: 5vw;
+}
+
+#interviewVid1 {
+    margin-right: 4vw;
+    width: 40%;
+    float: right;
+}
+
+#interviewTxt2 {
+    width: 40%;
+    float: left;
+    font-size: 1.3vw;
+    padding-left: 26vw;
+    margin-right: 4vw;
+    padding-top: 5vw;
+    padding-bottom: 2vw;
+    text-align: center;
+}
+
+#interviewVid2 {
+    margin-left: 26vw;
+    margin-right: 4vw;
+    width: 45vw;
+    height: 40vw;
+}
