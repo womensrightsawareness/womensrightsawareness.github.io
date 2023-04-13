@@ -1,0 +1,225 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #002020;
+    color:azure;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: 'Quicksand', sans-serif;
+    letter-spacing: 4px;
+    padding: 100px;
+    text-align: center;
+}
+
+/* nav */
+
+li, a {
+    font-family: monospace, sans-serif;
+    font-size: 2.5vh;
+    color: #ECECEF;
+    text-decoration: none;
+
+}
+
+header {
+    display:flex;
+    align-items:center;
+    justify-content:left;
+    padding: 30px 10%;
+}
+
+.navlinks {
+    list-style: none;
+}
+
+.navlinks li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.navlinks li a {
+    transition: all 0.3s ease 0s;
+}
+
+.navlinks li a:hover {
+    color: #cfcfe8;
+}
+
+/* Intro */
+
+.introTxt {
+    font-size: 2vh;
+    font-family: 'Raleway', sans-serif;
+    line-height: 140%;
+    text-align: center;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    padding: 40px;
+    border: none;
+}
+
+#introQuote {
+    font-size: 3vh;
+    word-spacing: 2px;
+    letter-spacing: 1.2px;
+    font-family: 'Caveat', cursive;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Responsive */
+@media only screen and (max-width:600px) {
+
+    header {
+        padding: 30px 5%;
+    }
+
+    .navlinks li {
+        padding: 0px 12px;
+    }
+
+    #memberNames {
+        padding: 0px 12px;
+    }
+
+    .navlinks li a {
+        font-size: 18px;
+    }
+
+    .introTxt {
+        margin-left: 7vw;
+        margin-right: 7vw;
+    }
+
+}
+
+/* Survey */
+
+.material-symbols-outlined {
+  
+    padding-top: 5px;
+   font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+#Qs {
+    display: flex;
+    align-items: center;
+    padding: 10px 10px;
+    justify-content: space-around;
+}
+
+#Qs p {
+    font-size: 2vh;
+    font-family: 'Raleway', sans-serif;
+    line-height: 180%;
+    text-align: center;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    padding: 5px;
+    padding-bottom: 50px;
+    border: none;
+}
+
+#Charts {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#Charts img {
+    padding: 50px 20px;
+    width: 90vh;
+}
+
+.Analysis {
+    font-size: 2vh;
+    font-family: 'Raleway', sans-serif;
+    line-height: 140%;
+    text-align: center;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    padding: 40px;
+    border: none;
+}
+
+@media only screen and (max-width:1200px) {
+
+    #Charts {
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    #Qs1 {
+        float: left;
+    }
+
+    #Qs2 {
+        float: right;
+    }
+    
+}
+
+@media only screen and (max-width:700px) {
+
+    #Charts img {
+        width: 110vw;
+        height: 110vw;
+    }
+}
+
+/* Team */
+
+/*
+
+.members img {
+    width: 10px;
+    height: auto;
+}
+
+*/
+
+#memberNames {
+    font-size: 2vh;
+    font-family: 'Raleway', sans-serif;
+    
+    line-height: 140%;
+    text-align: center;
+    
+    margin-left: 15vw;
+    margin-right: 15vw;
+    padding: 40px;
+    border: none;
+}
+
+#mpics {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#m1pic {
+    border-radius: 50%;
+    width: 25%
+}
+
+#m2pic {
+    border-radius: 50%;
+    width: 25%
+}
+
+#m3pic {
+    border-radius: 50%;
+    width: 25%
+}
+
+#m4pic {
+    border-radius: 50%;
+    width: 25%
+}
