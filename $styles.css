@@ -105,11 +105,24 @@ header {
 
 }
 
-@media only screen and (max-width:1200px) {
+/* Survey */
 
-    #Charts {
-        flex-direction: column;
-    }
+#Qs {
+    display: flex;
+    align-items: center;
+    padding: 30px 20px;
+    justify-content: space-around;
+}
+
+#Qs p {
+    font-size: 2vh;
+    font-family: 'Raleway', sans-serif;
+    line-height: 180%;
+    text-align: center;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    padding: 20px;
+    border: none;
 
 }
 
@@ -120,101 +133,32 @@ header {
     padding: 30px 60px;
 }
 
-@media only screen and (max-width:1000px) {
+#Charts img {
+    padding: 100px 20px;
+    width: 90vh;
+}
 
-    #Charts img {
-        height: auto;
-        width: 70%;
-        height: 70%
+@media only screen and (max-width:1200px) {
+
+    #Charts {
+        flex-direction: column;
+        justify-content: center;
     }
 
+    #Qs1 {
+        float: left;
+    }
+
+    #Qs2 {
+        float: right;
+    }
+    
 }
 
 @media only screen and (max-width:700px) {
 
     #Charts img {
-        width: 50%;
-        height: 50%;
+        width: 200%;
+        height: 200%;
     }
-}
-
-#Charts img {
-    padding: 0 20px;
-    width: 90vh;
-}
-
-/* Survey */
-
-
-
-
-
-/**
-
-#survey {
-    border: none;
-}
-
-#FBar {
-    float: left;
-    margin-left: 1vw;
-    margin-bottom: 1vw;
-}
-
-#MBar {
-    float: right;
-    margin-right: 1vw;
-    margin-bottom: 1vw;
-}
-
-#Bartxt {
-    text-align: center;
-    font-size: 1.3vw;
-    margin-top: 1vw;
-    padding-bottom: 10vw;
-    padding-left: 10vw;
-    padding-right: 10vw;
-}
-
-/* Talking To Experts
-
-#interview1 {
-    color: white;
-}
-
-#interview2 {
-    color: white;
-}
-
-#interviewTxt1 {
-    width: 40%;
-    float: left;
-    font-size: 1.3vw;
-    padding-left: 3vw;
-    padding-top: 3vw;
-    margin-bottom: 5vw;
-}
-
-#interviewVid1 {
-    margin-right: 4vw;
-    width: 40%;
-    float: right;
-}
-
-#interviewTxt2 {
-    width: 40%;
-    float: left;
-    font-size: 1.3vw;
-    padding-left: 26vw;
-    margin-right: 4vw;
-    padding-top: 5vw;
-    padding-bottom: 2vw;
-    text-align: center;
-}
-
-#interviewVid2 {
-    margin-left: 26vw;
-    margin-right: 4vw;
-    width: 45vw;
-    height: 40vw;
 }
