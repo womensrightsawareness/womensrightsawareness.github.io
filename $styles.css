@@ -177,6 +177,14 @@ header {
     
 }
 
+@media only screen and (max-width:1000px) {
+    .Analysis {
+        margin-right: 1vw;
+        margin-left: 1vw;
+        padding: 0px;
+    }
+}
+
 @media only screen and (max-width:700px) {
 
     #Charts img {
@@ -187,13 +195,10 @@ header {
     .interview {
         display:flex;
         flex-direction: column;
-        justify-content:space-around;
+        justify-content: center;
         align-items: center;
     }
 
-    .interview p {
-        padding: 20px;
-    }
 }
 
 /* Videos */
@@ -215,55 +220,47 @@ header {
 
 .interview iframe {
     float:right;
+    width: 50vh;
+    height: 30vh;
 }
 
 /* Team */
 
-#mnames span {
-
-    font-size: 2vh;
-    font-family: 'Raleway', sans-serif;
-    line-height: 140%;
-    text-align: center;
-    padding: 40px 60px;
-    border: none;
+.MemberDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px;
 }
 
-#memberNames {
-    font-size: 2vh;
-    font-family: 'Raleway', sans-serif;
-    
-    line-height: 140%;
-    text-align: center;
-    
-    margin-left: 15vw;
-    margin-right: 15vw;
-    padding: 40px;
-    border: none;
+#Members {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-#mpics {
+.MemberDiv img {
+    border-radius: 50%;
+    width: 20vw;
+}
+
+.MemberDiv p {
+    padding: 10px;
+    font-family: 'Raleway', sans-serif;
+    font-weight:600;
+    text-shadow: #ECECEF;
+}
+
+/* Posters */
+
+#posters {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-#m1pic {
-    border-radius: 50%;
-    width: 25%
-}
-
-#m2pic {
-    border-radius: 50%;
-    width: 25%
-}
-
-#m3pic {
-    border-radius: 50%;
-    width: 25%
-}
-
-#m4pic {
-    border-radius: 50%;
-    width: 25%
+.Poster {
+    width: 33%;
+    height: auto;
 }
