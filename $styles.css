@@ -50,6 +50,15 @@ header {
 
 /* Intro */
 
+#introQuote {
+    font-size: 3vh;
+    word-spacing: 2px;
+    letter-spacing: 1.2px;
+    font-family: 'Caveat', cursive;
+    text-align: center;
+    padding: 10px;
+}
+
 .introTxt {
     font-size: 2vh;
     font-family: 'Raleway', sans-serif;
@@ -59,15 +68,6 @@ header {
     margin-right: 15vw;
     padding: 40px;
     border: none;
-}
-
-#introQuote {
-    font-size: 3vh;
-    word-spacing: 2px;
-    letter-spacing: 1.2px;
-    font-family: 'Caveat', cursive;
-    text-align: center;
-    padding: 10px;
 }
 
 /* Responsive */
@@ -89,7 +89,7 @@ header {
         font-size: 18px;
     }
 
-    .introTxt {
+    p {
         margin-left: 7vw;
         margin-right: 7vw;
     }
@@ -118,7 +118,7 @@ header {
 #Qs p {
     font-size: 2vh;
     font-family: 'Raleway', sans-serif;
-    line-height: 180%;
+    line-height: 140%;
     text-align: center;
     margin-left: 3vw;
     margin-right: 3vw;
@@ -174,16 +174,65 @@ header {
     }
 }
 
-/* Team */
 
-/*
 
-.members img {
-    width: 10px;
-    height: auto;
+
+
+/* Videos */
+
+  #Videos article {
+    width: 40%;
+    float: left;
+    font-size: 1.3vw;
+    padding-left: 3vw;
+    margin-bottom: 23vw;
+    padding-top: 6vw;
 }
 
-*/
+.interviewTxt {
+    text-align: left;
+    margin-right: 0;
+    margin-left: 0;
+    font-size: 2vh;
+    font-family: 'Raleway', sans-serif;
+    float: left;
+    border: none;
+
+}
+
+.interviewVid {
+    margin-left: 10vw;
+    margin-right: 4vw;
+    float: right;
+    padding-bottom: 10px;
+}
+
+#presentation {
+
+}
+
+#presentationdiv {
+    padding-top: 10vw;
+    padding-bottom: 10vw;
+    padding-left: 35vw;
+    padding-right: 10vw;
+}
+
+
+
+
+
+/* Team */
+
+#mnames span {
+
+    font-size: 2vh;
+    font-family: 'Raleway', sans-serif;
+    line-height: 140%;
+    text-align: center;
+    padding: 40px 60px;
+    border: none;
+}
 
 #memberNames {
     font-size: 2vh;
