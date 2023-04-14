@@ -64,10 +64,16 @@ header {
     font-family: 'Raleway', sans-serif;
     line-height: 140%;
     text-align: center;
-    margin-left: 15vw;
-    margin-right: 15vw;
-    padding: 40px;
+    padding-left: 15vw;
+    padding-right: 15vw;
+    padding: 50px;
     border: none;
+}
+
+#presentationdiv {
+    padding: 40px;
+    display: flex;
+    justify-content: center;
 }
 
 /* Responsive */
@@ -94,6 +100,11 @@ header {
         margin-right: 7vw;
     }
 
+    .introTxt {
+        padding-right: 10vw;
+        padding-left: 10vw;
+    }
+
 }
 
 /* Survey */
@@ -111,7 +122,7 @@ header {
 #Qs {
     display: flex;
     align-items: center;
-    padding: 10px 10px;
+    padding: 50px 10px;
     justify-content: space-around;
 }
 
@@ -172,55 +183,39 @@ header {
         width: 110vw;
         height: 110vw;
     }
+
+    .interview {
+        display:flex;
+        flex-direction: column;
+        justify-content:space-around;
+        align-items: center;
+    }
+
+    .interview p {
+        padding: 20px;
+    }
 }
-
-
-
-
 
 /* Videos */
 
-  #Videos article {
+.interview {
+    display: flex;
+    justify-content: center;
+    padding: 20px 20px;
+}
+
+.interview p {
+    font-size: 2vh;
+    padding: 0px 20px;
+    font-family: 'Raleway', sans-serif;
+    line-height: 140%;
     width: 40%;
     float: left;
-    font-size: 1.3vw;
-    padding-left: 3vw;
-    margin-bottom: 23vw;
-    padding-top: 6vw;
 }
 
-.interviewTxt {
-    text-align: left;
-    margin-right: 0;
-    margin-left: 0;
-    font-size: 2vh;
-    font-family: 'Raleway', sans-serif;
-    float: left;
-    border: none;
-
+.interview iframe {
+    float:right;
 }
-
-.interviewVid {
-    margin-left: 10vw;
-    margin-right: 4vw;
-    float: right;
-    padding-bottom: 10px;
-}
-
-#presentation {
-
-}
-
-#presentationdiv {
-    padding-top: 10vw;
-    padding-bottom: 10vw;
-    padding-left: 35vw;
-    padding-right: 10vw;
-}
-
-
-
-
 
 /* Team */
 
