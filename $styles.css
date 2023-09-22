@@ -252,6 +252,22 @@ header {
     text-shadow: #ECECEF;
 }
 
+@media only screen and (max-width:650px){
+    #Members {
+        flex-direction: column;
+    }
+
+    .MemberDiv img {
+        width: 70%;
+        margin-bottom: 20px;
+    }
+
+    .MemberDiv p {
+        font-size: 4vh;
+        text-align: center;
+    }
+}
+
 /* Posters */
 
 #posters {
